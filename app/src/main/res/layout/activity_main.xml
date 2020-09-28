@@ -14,12 +14,20 @@
         android:layout_centerHorizontal="true"
         />
     <TextView
+        android:id="@+id/dos"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="hello"
         android:gravity="center"
         android:layout_below="@id/uno"
 
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Wena los k"
+        android:layout_below="@id/dos"
+        android:layout_centerHorizontal="true"
         />
 
 </RelativeLayout>
